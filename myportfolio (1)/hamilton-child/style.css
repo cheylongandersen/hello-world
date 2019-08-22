@@ -1,0 +1,72 @@
+/*
+Theme Name: Hamilton Child
+Theme URL: http://hostinger-tutorials.com
+Description: Hamilton Child Theme
+Author: John Doe
+Author URL: http://hostinger-tutorials.com
+Template: hamilton
+Version: 1.0.0
+Text Domain: hamilton-child
+*/ 
+
+
+
+
+/* Changing page titles*/
+.title {
+	
+font-family:'helvetica';
+font-weight:800;
+font-size:79px;
+text-transform:uppercase;
+}
+/* Changing the nav bar*/
+
+.alt-nav-wrapper {
+	
+font-size:12px;
+font-family: 'helvetica';
+padding-right: 92px;
+}
+
+/* Changes to the footer*/
+footer {
+    
+font-size: 15px;
+}
+/* Changing the site title*/
+.site-name {
+	
+font-family:'helvetica';
+text-transform: uppercase;
+text-decoration: none;
+padding-left: 92px;
+font-weight:800;
+font-size:25px;
+	
+}
+
+/* Changing the home page image font*/
+.entry-content .has-large-font-size {
+   font-size: 45px;
+	font-family: 'helvetica';
+	text-decoration:none;
+	
+}
+
+/*Centering the dropdown sub menu*/
+ul li ul li { 
+text-align:center;
+font-family: 'helvetica';
+}
+
+/* Altering Download CV button*/
+.entry-content .wp-block-file {
+    align-items: center;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin: 30px 0;
+	display:flex;
+	background:none;
+	padding: 0;
+}
